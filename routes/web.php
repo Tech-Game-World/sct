@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
-    return redirect()->route('home');
+    return 'Hello World';
+});
+
+Route::get('/test', function () {
+    return 'test';
 });
 
 Auth::routes();
