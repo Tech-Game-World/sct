@@ -10,3 +10,7 @@
 - Указать настройки для работы с базой данных в файле `.env` `DB_DATABASE=laravel DB_USERNAME=root DB_PASSWORD=`
 - Выполнить команду по созданию приватного ключа `php artisan  key:generate`
 - Выполнить команду для наката миграции `php artisan migrate:fresh`
+
+### Изменения в проекте:
+
+- Выполнена задача task1-1
